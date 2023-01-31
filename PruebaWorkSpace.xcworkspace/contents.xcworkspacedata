@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:AutoEstudioIOS/DemoFrameWork/DemoFrameWork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoEstudioIOS/DemoApp/DemoApp.xcodeproj">
+   </FileRef>
+</Workspace>
