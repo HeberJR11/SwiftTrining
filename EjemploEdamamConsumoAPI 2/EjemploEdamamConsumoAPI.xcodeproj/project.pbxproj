@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA73DCC2982F56A00212F52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DCB2982F56A00212F52 /* AppDelegate.swift */; };
+		FAA73DCE2982F56B00212F52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DCD2982F56B00212F52 /* SceneDelegate.swift */; };
+		FAA73DD02982F56B00212F52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DCF2982F56B00212F52 /* ViewController.swift */; };
+		FAA73DD32982F56B00212F52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA73DD12982F56B00212F52 /* Main.storyboard */; };
+		FAA73DD62982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DD42982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodeld */; };
+		FAA73DD82982F56E00212F52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA73DD72982F56E00212F52 /* Assets.xcassets */; };
+		FAA73DDB2982F56E00212F52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA73DD92982F56E00212F52 /* LaunchScreen.storyboard */; };
+		FAA73DE62982F56E00212F52 /* EjemploEdamamConsumoAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DE52982F56E00212F52 /* EjemploEdamamConsumoAPITests.swift */; };
+		FAA73DF02982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DEF2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.swift */; };
+		FAA73DF22982F56E00212F52 /* EjemploEdamamConsumoAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA73DF12982F56E00212F52 /* EjemploEdamamConsumoAPIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA73DE22982F56E00212F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA73DC02982F56A00212F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA73DC72982F56A00212F52;
+			remoteInfo = EjemploEdamamConsumoAPI;
+		};
+		FAA73DEC2982F56E00212F52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA73DC02982F56A00212F52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA73DC72982F56A00212F52;
+			remoteInfo = EjemploEdamamConsumoAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA73DC82982F56A00212F52 /* EjemploEdamamConsumoAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploEdamamConsumoAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA73DCB2982F56A00212F52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA73DCD2982F56B00212F52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA73DCF2982F56B00212F52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA73DD22982F56B00212F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA73DD52982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EjemploEdamamConsumoAPI.xcdatamodel; sourceTree = "<group>"; };
+		FAA73DD72982F56E00212F52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA73DDA2982F56E00212F52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA73DDC2982F56E00212F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA73DE12982F56E00212F52 /* EjemploEdamamConsumoAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploEdamamConsumoAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA73DE52982F56E00212F52 /* EjemploEdamamConsumoAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploEdamamConsumoAPITests.swift; sourceTree = "<group>"; };
+		FAA73DEB2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploEdamamConsumoAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA73DEF2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploEdamamConsumoAPIUITests.swift; sourceTree = "<group>"; };
+		FAA73DF12982F56E00212F52 /* EjemploEdamamConsumoAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploEdamamConsumoAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA73DC52982F56A00212F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DDE2982F56E00212F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DE82982F56E00212F52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA73DBF2982F56A00212F52 = {
+			isa = PBXGroup;
+			children = (
+				FAA73DCA2982F56A00212F52 /* EjemploEdamamConsumoAPI */,
+				FAA73DE42982F56E00212F52 /* EjemploEdamamConsumoAPITests */,
+				FAA73DEE2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests */,
+				FAA73DC92982F56A00212F52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA73DC92982F56A00212F52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA73DC82982F56A00212F52 /* EjemploEdamamConsumoAPI.app */,
+				FAA73DE12982F56E00212F52 /* EjemploEdamamConsumoAPITests.xctest */,
+				FAA73DEB2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA73DCA2982F56A00212F52 /* EjemploEdamamConsumoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				FAA73DCB2982F56A00212F52 /* AppDelegate.swift */,
+				FAA73DCD2982F56B00212F52 /* SceneDelegate.swift */,
+				FAA73DCF2982F56B00212F52 /* ViewController.swift */,
+				FAA73DD12982F56B00212F52 /* Main.storyboard */,
+				FAA73DD72982F56E00212F52 /* Assets.xcassets */,
+				FAA73DD92982F56E00212F52 /* LaunchScreen.storyboard */,
+				FAA73DDC2982F56E00212F52 /* Info.plist */,
+				FAA73DD42982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodeld */,
+			);
+			path = EjemploEdamamConsumoAPI;
+			sourceTree = "<group>";
+		};
+		FAA73DE42982F56E00212F52 /* EjemploEdamamConsumoAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA73DE52982F56E00212F52 /* EjemploEdamamConsumoAPITests.swift */,
+			);
+			path = EjemploEdamamConsumoAPITests;
+			sourceTree = "<group>";
+		};
+		FAA73DEE2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA73DEF2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.swift */,
+				FAA73DF12982F56E00212F52 /* EjemploEdamamConsumoAPIUITestsLaunchTests.swift */,
+			);
+			path = EjemploEdamamConsumoAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA73DC72982F56A00212F52 /* EjemploEdamamConsumoAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA73DF52982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPI" */;
+			buildPhases = (
+				FAA73DC42982F56A00212F52 /* Sources */,
+				FAA73DC52982F56A00212F52 /* Frameworks */,
+				FAA73DC62982F56A00212F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploEdamamConsumoAPI;
+			productName = EjemploEdamamConsumoAPI;
+			productReference = FAA73DC82982F56A00212F52 /* EjemploEdamamConsumoAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA73DE02982F56E00212F52 /* EjemploEdamamConsumoAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA73DF82982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPITests" */;
+			buildPhases = (
+				FAA73DDD2982F56E00212F52 /* Sources */,
+				FAA73DDE2982F56E00212F52 /* Frameworks */,
+				FAA73DDF2982F56E00212F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA73DE32982F56E00212F52 /* PBXTargetDependency */,
+			);
+			name = EjemploEdamamConsumoAPITests;
+			productName = EjemploEdamamConsumoAPITests;
+			productReference = FAA73DE12982F56E00212F52 /* EjemploEdamamConsumoAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA73DEA2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA73DFB2982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPIUITests" */;
+			buildPhases = (
+				FAA73DE72982F56E00212F52 /* Sources */,
+				FAA73DE82982F56E00212F52 /* Frameworks */,
+				FAA73DE92982F56E00212F52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA73DED2982F56E00212F52 /* PBXTargetDependency */,
+			);
+			name = EjemploEdamamConsumoAPIUITests;
+			productName = EjemploEdamamConsumoAPIUITests;
+			productReference = FAA73DEB2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA73DC02982F56A00212F52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					FAA73DC72982F56A00212F52 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					FAA73DE02982F56E00212F52 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FAA73DC72982F56A00212F52;
+					};
+					FAA73DEA2982F56E00212F52 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = FAA73DC72982F56A00212F52;
+					};
+				};
+			};
+			buildConfigurationList = FAA73DC32982F56A00212F52 /* Build configuration list for PBXProject "EjemploEdamamConsumoAPI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA73DBF2982F56A00212F52;
+			productRefGroup = FAA73DC92982F56A00212F52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA73DC72982F56A00212F52 /* EjemploEdamamConsumoAPI */,
+				FAA73DE02982F56E00212F52 /* EjemploEdamamConsumoAPITests */,
+				FAA73DEA2982F56E00212F52 /* EjemploEdamamConsumoAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA73DC62982F56A00212F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA73DDB2982F56E00212F52 /* LaunchScreen.storyboard in Resources */,
+				FAA73DD82982F56E00212F52 /* Assets.xcassets in Resources */,
+				FAA73DD32982F56B00212F52 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DDF2982F56E00212F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DE92982F56E00212F52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA73DC42982F56A00212F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA73DD02982F56B00212F52 /* ViewController.swift in Sources */,
+				FAA73DCC2982F56A00212F52 /* AppDelegate.swift in Sources */,
+				FAA73DCE2982F56B00212F52 /* SceneDelegate.swift in Sources */,
+				FAA73DD62982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DDD2982F56E00212F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA73DE62982F56E00212F52 /* EjemploEdamamConsumoAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA73DE72982F56E00212F52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA73DF22982F56E00212F52 /* EjemploEdamamConsumoAPIUITestsLaunchTests.swift in Sources */,
+				FAA73DF02982F56E00212F52 /* EjemploEdamamConsumoAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA73DE32982F56E00212F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA73DC72982F56A00212F52 /* EjemploEdamamConsumoAPI */;
+			targetProxy = FAA73DE22982F56E00212F52 /* PBXContainerItemProxy */;
+		};
+		FAA73DED2982F56E00212F52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA73DC72982F56A00212F52 /* EjemploEdamamConsumoAPI */;
+			targetProxy = FAA73DEC2982F56E00212F52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA73DD12982F56B00212F52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA73DD22982F56B00212F52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA73DD92982F56E00212F52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA73DDA2982F56E00212F52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA73DF32982F56E00212F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA73DF42982F56E00212F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA73DF62982F56E00212F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EjemploEdamamConsumoAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA73DF72982F56E00212F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EjemploEdamamConsumoAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA73DF92982F56E00212F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploEdamamConsumoAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EjemploEdamamConsumoAPI";
+			};
+			name = Debug;
+		};
+		FAA73DFA2982F56E00212F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EjemploEdamamConsumoAPI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EjemploEdamamConsumoAPI";
+			};
+			name = Release;
+		};
+		FAA73DFC2982F56E00212F52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EjemploEdamamConsumoAPI;
+			};
+			name = Debug;
+		};
+		FAA73DFD2982F56E00212F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EjemploEdamamConsumoAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EjemploEdamamConsumoAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA73DC32982F56A00212F52 /* Build configuration list for PBXProject "EjemploEdamamConsumoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA73DF32982F56E00212F52 /* Debug */,
+				FAA73DF42982F56E00212F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA73DF52982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA73DF62982F56E00212F52 /* Debug */,
+				FAA73DF72982F56E00212F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA73DF82982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA73DF92982F56E00212F52 /* Debug */,
+				FAA73DFA2982F56E00212F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA73DFB2982F56E00212F52 /* Build configuration list for PBXNativeTarget "EjemploEdamamConsumoAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA73DFC2982F56E00212F52 /* Debug */,
+				FAA73DFD2982F56E00212F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA73DD42982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA73DD52982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodel */,
+			);
+			currentVersion = FAA73DD52982F56B00212F52 /* EjemploEdamamConsumoAPI.xcdatamodel */;
+			path = EjemploEdamamConsumoAPI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA73DC02982F56A00212F52 /* Project object */;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='EjerciciosSet'/>
+        <page name='Tuplas'/>
+        <page name='Sets'/>
+        <page name='Enum'/>
+        <page name='EjerciciosEnum'/>
+        <page name='HighOrderFunctions'/>
+        <page name='Test'/>
+        <page name='Challenge'/>
+    </pages>
+</playground>
