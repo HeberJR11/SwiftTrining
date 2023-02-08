@@ -1,0 +1,27 @@
+
+ASIGNACION DE SIMBOLOS DESDE TECLADO EN ESPAÑOL
+
+\ = option + ?
+``= option + }
+~ = option + +
+≠ = option + ¿
+^ = option + {
+[] = shift + []
+{} = {}
+
+ATAJOS CON TECLAS
+
+1. ctrl + cmd + espacio = catalogo de emojis
+2. Xcode -> Xcode server -> Text editing -> Code Folding ribbon = muestra el código seccionado
+3. Command + B = construir app
+4. Command + R = ejecutar app
+5. Command + V = ejecutar tests
+6. Command + N = crear nuevo fichero
+7. Command + option + N = crear nuevo grupo
+8. Command + / o Command + flechaArriba + 7 = comentar todo el código seleccionado
+9. Control + i = acomoda todo el código 
+10. Command + A = seleccionar todo el contenido del fichero
+
+TIPS DE CONSTRAINS
+- Con control hacia la pantalla, podemos indicar que orientación le damos 
+- Con control y arrastrando hacia el otro elemento visual, igual indicamos 

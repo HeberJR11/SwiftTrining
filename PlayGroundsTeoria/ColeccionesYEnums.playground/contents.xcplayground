@@ -6,5 +6,9 @@
         <page name='Sets'/>
         <page name='Tuplas'/>
         <page name='Enumeracon'/>
+        <page name='Sort_OrdenamientoDeDatos'/>
+        <page name='Map_OrdenamientoDeDatos'/>
+        <page name='ForEach_OrdenamientoDeDatos'/>
+        <page name='OtherOperations'/>
     </pages>
 </playground>

@@ -1,6 +1,5 @@
 import Foundation
-// Optional String
-
+// Optional String (desempaquetamiento opcional)
 
 // Enlaces opcionales
 
@@ -29,8 +28,10 @@ if let myString = myOptionalString, let myString2 = myOptionalString2, let myStr
     
 }
 
-// Desempaquetado forzado
+// Desempaquetado forzado (forced unwrapping)
 
 if myOptionalString != nil {
+    
+    // Con ! hacemos desempaquetamiento forzado
     print(myOptionalString!)
 }

@@ -12,10 +12,15 @@ struct ChessPiece {
     }
     
     enum PieceType: String {
+        
         case king = "Rey", queen = "Reina", rock = "Torre", bishop = "Alfil", knight = "Caballo", pawn = "Peón"
+        
         struct Number {
+            
             let number: Int
+            
         }
+        
         var number: Number {
             switch self {
             case .king:
@@ -35,11 +40,15 @@ struct ChessPiece {
     }
     
     var description: String {
+        
         if type.number.number == 1 {
             return "Hay \(type.number.number) pieza de ajedrez de color \(color.rawValue) y de tipo \(type.rawValue)"
+            
         }
+        
         return "Hay \(type.number.number) piezas de ajedrez de color \(color.rawValue) y de tipo \(type.rawValue)"
-    }
+        
+     }
     
 }
 

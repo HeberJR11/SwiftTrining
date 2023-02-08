@@ -3,6 +3,7 @@ import Foundation
 // Protocolos
 
 protocol PersonProtocol {
+    // get: obtiene, set: se le puede asignar un valor
     var name: String { get set }
     var age: Int { get set }
     
@@ -26,12 +27,13 @@ struct Teacher: PersonProtocol {
     var subject: String
     
     func fullName() -> String {
+        
         return "El nombre es \(name), edad: \(age) e imparte la asignatura de \(subject)"
     }
 }
 
-let myProgrammer = Programmer(name: "Brais", age: 32, language: "Swift")
-let myTeacher = Teacher(name: "Juan", age: 50, subject: "Matemáticas")
+let myProgrammer = Programmer(name: "Heber", age: 32, language: "Swift")
+let myTeacher = Teacher(name: "Eduardo", age: 50, subject: "Matemáticas")
 
 print(myProgrammer.fullName())
 print(myTeacher.fullName())
@@ -41,13 +43,16 @@ print(myTeacher.fullName())
 class FirstClass: SecondClassProtocol {
    
     func callSecond() {
+        
         let secondClass = SecondClass()
         secondClass.delegate = self
         secondClass.callFirst()
     }
     
     func call() {
+        
         print("Estoy de vuelta!")
+        
     }
     
 }
@@ -73,5 +78,3 @@ class SecondClass {
 
 let firstClass = FirstClass()
 firstClass.callSecond()
-
-
